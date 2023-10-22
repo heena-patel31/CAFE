@@ -1,0 +1,142 @@
+body{
+  width:100%;
+  margin:auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.header1{
+  min-height:69px;
+  min-width:100%;
+  display: flex;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 10;
+}
+
+.logo{
+  opacity: 0.9;
+  margin-left: 10px;
+  width: 75%;
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  float:left;
+  height: 50px;
+}
+
+.navbar{
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin:10px;
+}
+
+.navbar a{
+  background-color: black;
+  color :aliceblue;
+  border:1px solid aliceblue;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:hover{
+  background-color: white;
+  color: black;
+}
+
+.mission{
+
+  /*background-image: url("images\img-mission-background.webp");*/
+  background-image: url("img-mission-background.webp");
+  height:700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  margin: 0px 20px;
+  position: relative;
+  top:69px;
+}
+
+.mission_text 
+{
+  text-align: center;
+  width: 100%;
+    background-color: black;
+}
+
+
+.featured_tea{
+  color: white;
+  position: relative;
+  top: 69px;
+}
+
+.fetured_text
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.imgs{
+  display: flex;
+    flex-wrap: wrap;
+    /* width: 1000px; */
+    justify-content: center;
+}
+.img{
+  display: flex;
+  justify-content: space-around;
+}
+.imgs img{
+  height:200px;
+  width:300px;
+  padding: 10px;
+}
+
+.Location{
+  min-height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  background-image: url("img-locations-background.webp");
+  background-size: cover;
+  position: relative;
+  top:69px;
+}
+
+.Location1{
+  background-color: black;
+    width: 300px;
+    border: 1px solid seashell;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin: 10px;
+}
+
+.downtown,
+.east_bayside,
+.Oakdale h3{
+  padding-top: 5px;
+}
+
+.downtown,
+.east_bayside,
+.Oakdale h4{
+
+  line-height: 2.3em;
+}
+
+.footr{
+  position: relative;
+  top: 69px;
+}
