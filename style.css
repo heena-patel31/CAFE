@@ -63,6 +63,7 @@ a:hover{
   margin: 0px 20px;
   position: relative;
   top:69px;
+  scroll-margin-top: 8rem;
 }
 
 .mission_text 
@@ -77,6 +78,7 @@ a:hover{
   color: white;
   position: relative;
   top: 69px;
+  scroll-margin-top: 8rem;
 }
 
 .fetured_text
@@ -112,6 +114,7 @@ a:hover{
   background-size: cover;
   position: relative;
   top:69px;
+  scroll-margin-top: 8rem;
 }
 
 .Location1{
