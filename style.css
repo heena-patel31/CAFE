@@ -10,6 +10,7 @@ body{
   min-height:69px;
   min-width:100%;
   display: flex;
+  justify-content: space-between;
   background-color: black;
   border-bottom: 1px solid seashell;
   position: fixed;
@@ -19,7 +20,6 @@ body{
 .logo{
   opacity: 0.9;
   margin-left: 10px;
-  width: 75%;
   display: flex;
   align-items: center;
 }
@@ -30,12 +30,10 @@ body{
 }
 
 .navbar{
-  width: 25%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin:10px;
 }
 
 .navbar a{
@@ -44,6 +42,7 @@ body{
   border:1px solid aliceblue;
   text-decoration: none;
   padding: 10px;
+  margin: 10px;
 }
 
 .navbar a:hover{
@@ -143,3 +142,14 @@ body{
   position: relative;
   top: 69px;
 }
+
+/*@media screen and (max-width: 860px)
+{
+  .navbar{
+    width: 70%;
+  }
+  .logo{
+    width:30%;
+  }
+
+}*/
